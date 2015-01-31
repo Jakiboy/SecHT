@@ -1,0 +1,14 @@
+<!--Begin form-->
+<div class="container">
+<?php $path = realpath('../index.php'); ?>
+	<form class="form-signin" action="comp/core/Ji_action.php" method="POST">
+	<!--<div id="text">SecHT<span id="version">v1.0</span></div>-->
+	<div id="logo"><img src="./comp/css/img/logo.png" align="middle"></div>
+	<div id="smalltext">smart htpasswd & htaccess generator</div>
+		<input name="nameput" id="inputName" class="form-control" placeholder="Username" required="" autofocus="" type="text">
+		<input name="passput" id="inputPassword" class="form-control" placeholder="Password" required="" type="text">
+		<input name="authput" id="inputAuth" class="form-control" placeholder="Auth Name" type="text">
+		<input name="pathput" id="inputPath" class="form-control" placeholder="<?php echo $path ; ?>" type="text" value="<?php echo $path ?>">
+		<button name="submit" class="btn btn-lg btn-primary btn-block" type="submit"><i class="fa fa-magic"></i> Generate It</button>
+	</form>
+</div>

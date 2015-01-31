@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<style type="text/css">
+			@import url(../../comp/css/style.css);
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="text">SecHT<span id="version">v1.0</span></div>
+	<div id="smalltext">smart htpasswd & htaccess generator</div>
+	<div id="content">
+		<ul id="buttons">
+			<li>
+				<span onclick="location.href='../../export/htfiles.zip';" class="animated-button orange rotate">
+					<div class="icon" style="background-image: url(../css/img/htaccess.png);"></div>
+					<div class="content">
+						<div class="title">Download .htaccess</div>
+						<div class="sub-title">No virus, analyzed by Kaspersky</div>
+					</div>
+				</span>
+			</li>
+			<li>
+				<span class="animated-button orange rotate">
+					<div class="icon" style="background-image: url(../css/img/htpasswd.png);"></div>
+					<div class="content">
+						<div class="title">Download .passwod</div>
+						<div class="sub-title">No virus, analyzed by Kaspersky</div>
+					</div>
+				</span>
+			</li>
+		</ul>
+			<ul id="buttons">
+			<li>
+				<span onclick="location.href='http://jihadsinnaour.com';" class="animated-button red pulse">
+					<div class="icon" style="background-image: url(../css/img/favorite.png);"></div>
+					<div class="content">
+						<div class="title">Mark a donation</div>
+						<div class="sub-title">by Just one click</div>
+					</div>
+				</span>
+			</li>
+		</ul>
+	</div>
+		</div> 
+	</body>
+</html>

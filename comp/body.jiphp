@@ -1,0 +1,3 @@
+<!--Begin body-->
+<body>
+	<?php include("core/Ji_form.jiphp");?>

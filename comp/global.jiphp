@@ -1,0 +1,6 @@
+<?php
+include_once("head.jiphp"); //Contenent style file
+include_once("body.jiphp"); //Contenent core file
+include_once("header.jiphp");
+include_once("footer.jiphp");
+?>
